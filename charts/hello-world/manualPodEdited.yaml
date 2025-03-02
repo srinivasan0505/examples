@@ -36,7 +36,7 @@ spec:
   imagePullSecrets:
   - name: dockersecret
   - name: image-pull-secret
-  nodeName: tool-node
+  nodeName: tools-node
   preemptionPolicy: PreemptLowerPriority
   priority: 0
   restartPolicy: Never
