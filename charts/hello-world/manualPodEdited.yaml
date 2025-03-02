@@ -18,11 +18,11 @@ spec:
       protocol: TCP
     resources:
       limits:
-        CPU: "3.5"
-        memory: 14G
+        CPU: "1.75"
+        memory: 30G
       requests:
-        CPU: "3.5"
-        memory: 14G
+        CPU: "1.75"
+        memory: 30G
     terminationMessagePath: /dev/termination-log
     terminationMessagePolicy: File
     volumeMounts:
